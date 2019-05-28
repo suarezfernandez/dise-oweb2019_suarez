@@ -1,7 +1,0 @@
-body[
-    background: #efefef;
-]
-
-h1[
-    color: teal
-]

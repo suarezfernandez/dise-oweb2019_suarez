@@ -4,3 +4,28 @@
 .size_ch {font-size: 10ch;}
 .size_porciento {font-size: 10%;}
 .size_ex {font-size: 10ex;}
+
+.size_cm{
+    width: 5cm;
+    height: 5cm;
+    background:red;
+    margin: 1em;
+}
+.size_mm {
+    width: 5mm;
+    height: 5mm;
+    background: red;
+     margin:1em;
+}
+.size_pt{
+    width: 5pt;
+    height: 5pt;
+    background: red;
+    margin:1em;
+}
+.size_in {
+    width: 5in;
+    height: 5in;
+    background: red;
+     margin:1em;
+}

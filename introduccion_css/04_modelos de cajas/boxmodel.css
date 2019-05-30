@@ -14,8 +14,8 @@ body{
 /*estilo para el nav*/
 nav{
     background:#3F85DF;
-    width: 400px;
-    height: 75vh;
+    width: 100vw;
+    height: 80px;
 }
 
 /*estilo para nav*/
@@ -36,7 +36,8 @@ nav ul li  {
     padding-left:15px;
     padding-right:30px;
 
-    border: solid 1px cadetblue
+    border: solid 1px cadetblue;
+    display:inline;
 
 }
 
@@ -49,3 +50,27 @@ nav h1 {
     font-weight: normal;
 
 }
+nav li.active {
+    background: rgba(0,0,0,0.5);
+
+}
+nav h1{
+    display:none;
+}
+img{
+    width: 800px;
+    height:300px;
+    padding: 5px;
+  
+}
+div{
+    display:inline;
+}
+aside{
+    color:black;
+    font: outline;
+}
+p span{
+    padding: 50px;
+}
+    

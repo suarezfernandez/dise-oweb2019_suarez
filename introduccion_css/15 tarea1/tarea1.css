@@ -1,31 +1,41 @@
 *{
-margin: 0px;
-padding: 0px;
-
+    margin: 0;
+    padding: 0;
 }
 header{
-    margin: auto;
-    margin-top: 50px;
-    width: 960px;
-    height: 800px;
-    background: red;
+    width: 100%;
+   
+}
+nav{
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+}
+nav ul{
+    list-style: none;
+}
+nav > ul{
+    display: table;
+    overflow: hidden;
+    width: 75%;
+    background:green;
+    position: relative;
+}
+nav > ul li {
+    display: table-cell;
 
-#nav1{
-    flex-grow: left;right: 15%;
-    background: rgb(34, 139, 95)
-    width: 15%;
-    height: 5%;
 }
-#nav2{
-    float: left;
-    background:forestgreen
-    width: 10%;
-    height: 5%;
-  
+nav > ul > li> ul {
+    display: none;
+
 }
-#nav3{
-   float: left;
-   background:forestgreen;
-   width: 10%;
-   height: 5%;
+nav > ul li a {
+    color:#fff;
+    display: block;
+    line-height: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration:none; 
+
 }

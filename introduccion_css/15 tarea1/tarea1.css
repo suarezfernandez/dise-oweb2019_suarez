@@ -1,0 +1,31 @@
+*{
+margin: 0px;
+padding: 0px;
+
+}
+header{
+    margin: auto;
+    margin-top: 50px;
+    width: 960px;
+    height: 800px;
+    background: red;
+
+#nav1{
+    flex-grow: left;right: 15%;
+    background: rgb(34, 139, 95)
+    width: 15%;
+    height: 5%;
+}
+#nav2{
+    float: left;
+    background:forestgreen
+    width: 10%;
+    height: 5%;
+  
+}
+#nav3{
+   float: left;
+   background:forestgreen;
+   width: 10%;
+   height: 5%;
+}

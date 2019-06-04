@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-/* Reset */
+
+/*Reset*/
 * {
     margin: 0;
     padding: 0;
@@ -7,29 +8,48 @@
 
 body {
     font-family: 'Montserrat',
-    sans-serif;
+        sans-serif;
+    background: #FEF5DA;
 }
-h1, h2, h3, h4, h5 {
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Montserrat',
-    sans-serif;
+        sans-serif;
 }
 
-nav a {
+section {
+    display: flex;
+    height: 400px;
+
+}
+
+section,
+div {
+    padding: 10px;
+}
+
+div a {
+    color: #AAA;
     text-decoration: none;
-    color: #aaa;
-    margin-left: 30px;
+    font-family: Arial;
 }
-/* cambiar color en el hover */
+
+/* Cmbiar color en el hover*/
 nav a:hover {
-    color:orangered;
-    border-bottom: solid 1px orangered;
+    color: black;
+    border-bottom: black;
+}
 
 }
 
-.container {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+header nav div a {
+    color: #21292D;
+    text-transform: uppercase;
+    font-family: Arial
 }
 
 nav {
@@ -39,6 +59,16 @@ nav {
     padding-bottom: 25px;
 }
 
+nav a {
+    margin-left: 30px;
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 section article div {
     width: 50%;
     margin-top: 40px;
@@ -46,56 +76,42 @@ section article div {
 }
 
 section article div h1 {
-    font-size: 50px;
+    font-size: 70px;
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
 section article div p {
-    font-size: 14px;
-    width: 50%;
+    font-size: 13px;
+    width: 70%;
     line-height: 25px;
     margin-bottom: 30px;
 }
 
 /* Clases de utilidad */
 .btn {
-    background: #CCC;
     text-decoration: none;
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: #fff;
+    border: solid 1px;
+
 }
 
-.text-orange {}
-
-.text-darkgray {
-    color: #313243;
+section article div a {
+    color: black;
 }
 
-.text-lightgray {
-    color: #AAA;
+.bg-otoño {
+    background-color: #C71585;
 }
 
-.bg-orange {
-    background-color: #ff3b01;
-}
-
-.bg-darkgray {
-    background-color: #313243;
-}
-
-.bg-lightgray {
-    background-color: #AAA;
-}
-/*agregar fondo */
-section#principal{
-    height: 100vh;
-    background-image: url("yoga.png");
+/* Agregar fondo */
+section#principal {
+    background-image: url(hiring_artist.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    height: 100vh;
     background-position-x: right;
-
+    background-size: contain;
 }

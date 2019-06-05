@@ -5,19 +5,23 @@
     padding: 0;
 }
 body{
-    font-family: 'Montserrat',
-    sans-serif;
+    margin: 10%;
+    padding: 10%;
+   font-family: 'Trebuchet MS',
 }
 a { 
     text-decoration:none;
 }
 .fullscreen {
-    width: 100vw;
+    width: 80vw;
     height: 100vh;
 }
-h1, h2, h3, h4, h5 {
-   font-family: 'Lato',
-   sans-serif;
+ul {
+   
+   margin: 15px;
+    padding:10px;
+    text-decoration: none;
+    
 }
 
 /* agregar fondo*/
@@ -27,10 +31,6 @@ section#principal{
     background-repeat: no-repeat;
     background-size: 50%;
     background-position-x: right;
+   
 }
-.container {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
 
-}

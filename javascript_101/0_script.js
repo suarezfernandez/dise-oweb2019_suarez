@@ -36,3 +36,16 @@ console.log(pais);
 
 //cambiar el titulo
 document.title = "Nuevo titulo";
+
+var nombre = prompt( "digite su nombre");
+var nombre = prompt("digite su su edad");
+
+document.write( "<h1> nombre</h1>");
+document.write("<h1> edad</h1>");
+
+document.write(`<h1>${nombre}</h1>`);
+document.write(`<h1>${ edad} </h1>`);
+
+//2.hacer que el usuario digite
+// su ciudad, barrio y direccion
+// imprimirlo en un <div>

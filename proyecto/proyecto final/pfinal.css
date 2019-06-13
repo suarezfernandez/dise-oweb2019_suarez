@@ -1,0 +1,42 @@
+  *{
+      padding: 0;
+      margin: 0;
+  }
+  body {
+      background-color: #b5b3c9;
+  }
+  contenedor {
+      width: 950px;
+      margin: auto;
+
+  }
+  main {
+      width: 950;
+      height: 100px;
+
+  }
+  header nav {
+ text-align: center;
+ background: #ff63ff;
+
+  }
+  header nav ul li {
+      display:inline-block;
+      padding: 10px;
+  }
+  header nav ul li {
+      text-decoration: none;
+      font-family: fantasy;
+      font-size: 20px;
+      color: black;
+  }
+  section {
+      width: 750px;
+      height: 456px;
+      float: left;
+      background-color: white;
+      margin-top: 5px;
+      
+  }
+
+

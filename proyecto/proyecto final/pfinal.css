@@ -36,6 +36,16 @@
       float: left;
       background-color: white;
       margin-top: 5px;
+      margin-bottom: 5px;
+
+  }
+  aside {
+      width: 195px;
+      height: 300px;
+      margin-left: 5px;
+      background-color: white;
+      flex-left: 5px;
+      margin-top: 5px;
       
   }
 

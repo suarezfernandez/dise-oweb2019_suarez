@@ -7,7 +7,7 @@
 }
 nav ul li a{
    font-size: 20px;
-   color:rgb(12, 19, 122);
+   color:rgb(12, 122, 58);
    padding-left: 10px;
    bottom: 25px;
    display: block;
@@ -20,13 +20,54 @@ nav ul li a{
     padding-right: 10px;
     font-family: helvetica;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 20px;
     font-style: italic;
     color: #006505;
     background-color: #82b085;
     border-radius: 15px;
     border: 3px double #006505;
-
+}
+.boton_2 {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+}
+.boton_3 {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+}
+.boton_4 {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
 body {
     margin: 10%;
     padding: 10%;
@@ -54,6 +95,8 @@ ul {
     text-decoration: none;
 
 }
+
+
 
 body {
     background-image: url("../paginas/fblanco.png");

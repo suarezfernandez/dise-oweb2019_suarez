@@ -1,39 +1,69 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 /*reset */
-*{
-    margin:0;
+* {
+    margin: 22px;
     padding: 0;
 }
-body{
+nav ul li a{
+   font-size: 20px;
+   color:rgb(12, 19, 122);
+   padding-left: 10px;
+   bottom: 25px;
+   display: block;
+   width: 600px;
+}
+.boton_1 {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+
+body {
     margin: 10%;
     padding: 10%;
-   font-family: 'Trebuchet MS',
+    font-family: 'Trebuchet MS',
+
 }
-a { 
-    text-decoration:none;
+#menu{
+    margin: 20px;
+    width: 25px;
 }
-.fullscreen {
-    width: 80vw;
+
+a {
+    text-decoration: none;
+}
+
+fullscreen {
+    width: 75vw;
     height: 100vh;
 }
+
 ul {
-   
-   margin: 15px;
-    padding:10px;
+
+    margin: 20px;
+    padding: 10px;
     text-decoration: none;
-    
+
 }
 
-/* agregar fondo*/
-section#principal{
-    height: 200vh;
-    background-image: url(imagen1.png);
+body {
+    background-image: url("../paginas/fblanco.png");
     background-repeat: no-repeat;
-    background-size: 50%;
-    background-position-x: right;
-   
-}
-.h3 {
-    text-align: center;
+    background-size: cover;
 }
 
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color:red;
+    margin: 25px;;
+}

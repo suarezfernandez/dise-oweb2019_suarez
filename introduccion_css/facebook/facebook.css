@@ -1,0 +1,20 @@
+.rectangulo {
+    width: 400px;
+    height: 100px;
+    border: 3px solid #555;
+    background: #428bca;
+}
+
+.centrado,
+h4,
+nav {
+    text-align: center;
+    border: 2px;
+
+}
+
+.div cuadrado {
+    width: 100px;
+    heidth: 100px;
+    backgraund: #428bca;
+}

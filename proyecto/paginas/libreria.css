@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 *{
     margin:0;
@@ -15,8 +16,122 @@
     width: 200px;
     text-decoration: none;
     box-shadow: 0px 3px 0px #373c3c;
+=======
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/*reset */
+* {
+    margin: 22px;
+    padding: 0;
+}
+nav ul li a{
+   font-size: 20px;
+   color:rgb(12, 122, 58);
+   padding-left: 10px;
+   bottom: 25px;
+   display: block;
+   width: 600px;
+}
+.boton_1 {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+}
+.boton_2 {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+}
+.boton_3 {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+}
+.boton_4 {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+body {
+    margin: 10%;
+    padding: 10%;
+    font-family: 'Trebuchet MS',
+
+}
+#menu{
+    margin: 20px;
+    width: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+fullscreen {
+    width: 75vw;
+    height: 100vh;
+}
+
+ul {
+
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+
+>>>>>>> 1e113c66f9f94b47a6cc78971b08ae20fdd641a7
 }
 .button span{
     margin-right: 10px;
 
+<<<<<<< HEAD
+=======
+
+
+body {
+    background-image: url("../paginas/fblanco.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color:red;
+    margin: 25px;;
+>>>>>>> 1e113c66f9f94b47a6cc78971b08ae20fdd641a7
 }
